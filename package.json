@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remware/node-red-contrib-remware-ina3221.git"
+    "url": "git+https://github.com/ilier/node-red-contrib-remware-ina3221-sensor.git"
   },
   "keywords": [
     "ina3221",
