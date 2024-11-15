@@ -1,0 +1,35 @@
+{
+  "name": "node-red-contrib-remware-ina3221-sensor",
+  "version": "0.1.0",
+  "description": "node-red wrapper for the ina3221 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remware/node-red-contrib-remware-ina3221.git"
+  },
+  "keywords": [
+    "ina3221",
+    "raspi",
+    "current",
+    "sensor",
+    "voltage",
+    "node-red"
+  ],
+  "dependencies": {
+    "ina3221": "0.1.0"
+  },
+  "author": "Receu Ilie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remware/node-red-contrib-remware-ina3221/issues"
+  },
+  "homepage": "https://remware.ro",
+  "node-red": {
+    "nodes": {
+      "ina": "ina.js"
+    }
+  }
+}
